@@ -1,0 +1,45 @@
+{
+  "name": "lamm-beilstein-de",
+  "description": "Gasthof Lamm Beilstein",
+  "version": "1.0.0",
+  "author": "Bernhard Rode",
+  "dependencies": {
+    "gatsby-plugin-manifest": "^2.0.18",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-source-filesystem": "^2.0.21",
+    "gatsby-transformer-json": "^2.1.8",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gasthof",
+    "germany"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "preDeploy": "gatsby build --prefix-paths",
+    "deploy": "npm run preDeploy && cp CNAME public/ && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "gatsby": "^2.1.15",
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.16.4"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BernhardRode/lamm-beilstein-de"
+  }
+}
