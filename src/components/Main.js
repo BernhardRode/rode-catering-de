@@ -8,6 +8,7 @@ __      _____| |____      _____  _ __| | _____ _ __ _  ___
 */
 import React from 'react'
 import PropTypes from 'prop-types'
+import Imprint from './Imprint'
 
 class Main extends React.Component {
   render() {
@@ -71,6 +72,18 @@ class Main extends React.Component {
             <br />
             <br />
           </address>
+          {close}
+        </article>
+
+        <article
+          id="imprint"
+          className={`${this.props.article === 'imprint' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Impressum und Datenschutz</h2>
+          <Imprint />
           {close}
         </article>
       </div>

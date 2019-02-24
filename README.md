@@ -1,12 +1,12 @@
-# lamm-beilstein-de
+# metzgerei-rode-de
 
-[![Build Status](https://travis-ci.org/BernhardRode/lamm-beilstein-de.svg?branch=master)](https://travis-ci.org/BernhardRode/lamm-beilstein-de)
+[![Build Status](https://travis-ci.org/BernhardRode/metzgerei-rode-de.svg?branch=master)](https://travis-ci.org/BernhardRode/metzgerei-rode-de)
 
 Gatsby.js v2.x template and demo for using github pages, custom domains and a travis based ci/cd pipeline together.
 
 ## Preview
 
-https://lamm-beilstein.de/
+https://metzgerei-rode.de/
 
 ## Installation
 

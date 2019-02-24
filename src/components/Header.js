@@ -43,6 +43,15 @@ const Header = props => (
             Kontakt
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('imprint')
+            }}
+          >
+            Impressum &amp; Datenschutz
+          </button>
+        </li>
       </ul>
     </nav>
   </header>
