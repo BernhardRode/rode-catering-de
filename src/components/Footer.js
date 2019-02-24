@@ -22,6 +22,15 @@ const Footer = props => (
       >
         picture by <span>Dan Burton</span>
       </a>
+      &nbsp;|&nbsp;
+      <span
+        style={{ cursor: 'pointer' }}
+        onClick={() => {
+          props.onOpenArticle('imprint')
+        }}
+      >
+        Impressum &amp; Datenschutz
+      </span>
     </p>
   </footer>
 )
