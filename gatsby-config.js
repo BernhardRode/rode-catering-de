@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: 'Lamm Beilstein',
+    title: 'Metzgerei Rode Beilstein',
     author: 'Bernhard Rode',
-    description: 'Webseite des Gasthof Lamm in Beilstein.',
+    description: 'Webseite des Gasthof Metzgerei Rode in Beilstein.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'lamm-beilstein-de',
-        short_name: 'lamm-beilstein',
+        name: 'metzgerei-rode-beilstein-de',
+        short_name: 'metzgerei-rode-beilstein',
         start_url: '/',
-        background_color: '#663399',
+        background_color: '#ffffff',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/lamm-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/logo.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-transformer-json',
