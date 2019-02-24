@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Metzgerei Rode Beilstein',
     author: 'Bernhard Rode',
-    description: 'Webseite des Gasthof Metzgerei Rode in Beilstein.',
+    description: 'Webseite des Partyservice Metzgerei Rode in Beilstein.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
