@@ -57,11 +57,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Wo sie uns finden?</h2>
           <address>
-            <strong>Partyservice Metzgerei Rode</strong>
+            <strong>Rode Catering</strong>
             <br />
-            Ulrich Rode
+            Birigt & Ulrich Rode
             <br />
-            Hauptstraße 40
+            Hauptstraße 44
             <br />
             71717 Beilstein
             <br />
