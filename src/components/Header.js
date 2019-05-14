@@ -19,21 +19,12 @@ const Header = props => (
           src={icon}
           height="150"
           className="icon"
-          alt="Partyservice Metzgerei Rode"
+          alt="Rode Catering"
         />
       </div>
     </div>
     <nav>
       <ul>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('oeffnungszeiten')
-            }}
-          >
-            Öffnungszeiten
-          </button>
-        </li>
         <li>
           <button
             onClick={() => {
