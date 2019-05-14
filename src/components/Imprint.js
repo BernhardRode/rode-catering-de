@@ -16,7 +16,7 @@ class Imprint extends React.Component {
         <p>
           Ulrich Rode
           <br />
-          Hauptstrasse 40
+          Hauptstrasse 44
           <br />
           71717 Beilstein
         </p>
@@ -26,7 +26,7 @@ class Imprint extends React.Component {
           <br />
           Telefax: +49 7062 930756
           <br />
-          E-Mail: info@metzgerei-rode.de
+          E-Mail: <a href="mailto:info@rode-catering.de">info@rode-catering.de</a>
         </p>
         <p>
           Datenschutz Beauftragter: Bernhard Rode
