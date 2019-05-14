@@ -65,6 +65,9 @@ class Main extends React.Component {
             <br />
             71717 Beilstein
             <br />
+            <abbr title="E-Mail">Telefon:</abbr>{' '}
+            <a href="mailto:info@rode-catering.de">info@rode-catering.de</a>
+            <br />
             <abbr title="Phone">Telefon:</abbr>{' '}
             <a href="tel:+4970623716">+49 (07062) 8866</a>
             <br />
