@@ -1,4 +1,4 @@
-# metzgerei-rode-de
+# rode-catering-de
 
 [![Build Status](https://travis-ci.org/BernhardRode/metzgerei-rode-de.svg?branch=master)](https://travis-ci.org/BernhardRode/metzgerei-rode-de)
 
@@ -6,7 +6,7 @@ Gatsby.js v2.x template and demo for using github pages, custom domains and a tr
 
 ## Preview
 
-https://metzgerei-rode.de/
+https://rode-catering.de/
 
 ## Installation
 
