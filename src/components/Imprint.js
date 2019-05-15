@@ -7,6 +7,7 @@ __      _____| |____      _____  _ __| | _____ _ __ _  ___
   \_/\_/ \___|_.__/ \_/\_/ \___/|_|  |_|\_\___|_(_)|_|\___/ 
 */
 import React from 'react'
+import Contact from './Contact'
 
 class Imprint extends React.Component {
   render() {
@@ -14,19 +15,7 @@ class Imprint extends React.Component {
       <div>
         <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
         <p>
-          Ulrich Rode
-          <br />
-          Hauptstrasse 44
-          <br />
-          71717 Beilstein
-        </p>
-        <h2>Kontakt</h2>
-        <p>
-          Telefon: +49 7062 8866
-          <br />
-          Telefax: +49 7062 930756
-          <br />
-          E-Mail: <a href="mailto:info@rode-catering.de">info@rode-catering.de</a>
+          <Contact />
         </p>
         <p>
           Datenschutz Beauftragter: Bernhard Rode

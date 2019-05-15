@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'rode-catering-de',
-        short_name: 'rode-catering',
+        short_name: 'rode-catering-de',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#663399',

@@ -19,12 +19,30 @@ const Header = props => (
           src={icon}
           height="150"
           className="icon"
-          alt="Rode Catering"
+          alt="Rode Catering Beilstein"
         />
       </div>
     </div>
     <nav>
       <ul>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('catering')
+            }}
+          >
+            Catering
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('kiosk')
+            }}
+          >
+            Freibad Kiosk
+          </button>
+        </li>
         <li>
           <button
             onClick={() => {

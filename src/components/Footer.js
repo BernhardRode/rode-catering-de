@@ -20,7 +20,7 @@ const Footer = props => (
         rel="noopener noreferrer"
         title="Download free do whatever you want high-resolution photos from Dan Burton"
       >
-        picture by <span>Dan Burton</span>
+        bild <span>Dan Burton</span>
       </a>
       &nbsp;|&nbsp;
       <span

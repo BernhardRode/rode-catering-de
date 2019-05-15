@@ -10,6 +10,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Imprint from './Imprint'
 
+import kiosk from '../images/kiosk.png'
+import Contact from './Contact'
+import Catering from './Catering'
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -28,23 +32,47 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="oeffnungszeiten"
-          className={`${
-            this.props.article === 'oeffnungszeiten' ? 'active' : ''
-          } ${this.props.articleTimeout ? 'timeout' : ''}`}
+          id="kiosk"
+          className={`${this.props.article === 'kiosk' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Öffnungszeiten</h2>
+          <h2 className="major">Freibad Kiosk</h2>
           <p>
-            <strong>Montag bis Freitag</strong>
-            <br />
-            von 07.00 - 19.00
-            <br />
-            <strong>Samstag</strong>
-            <br />
-            von 07.00 - 13.00 Uhr
-            <br />
+            Ob Pommes und Eis für die Kinder oder Hamburger und Getränke für die
+            Alten. Wir freuen uns, Sie im Mineralfreibad Oberes Bottwartal mit
+            allem was das Herz begehrt verpflegen zu können.
           </p>
+          <img
+            src={kiosk}
+            width="100%"
+            alt="Freibad Kiosk - Mineralfreibad Oberes Bottwartal"
+          />
+          <p>
+            Weitere Informationen zum Mineralfreibad Oberes Bottwartal finden
+            Sie auf der Homepage unter{' '}
+            <a
+              href="https://www.freibad-oberes-bottwartal.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              freibad-oberes-bottwartal.com
+            </a>
+          </p>
+          {close}
+        </article>
+
+        <article
+          id="catering"
+          className={`${this.props.article === 'catering' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Catering</h2>
+          <Catering />
+          <p />
           {close}
         </article>
 
@@ -55,26 +83,8 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Wo sie uns finden?</h2>
-          <address>
-            <strong>Rode Catering</strong>
-            <br />
-            Birigt & Ulrich Rode
-            <br />
-            Hauptstraße 44
-            <br />
-            71717 Beilstein
-            <br />
-            <abbr title="E-Mail">Telefon:</abbr>{' '}
-            <a href="mailto:info@rode-catering.de">info@rode-catering.de</a>
-            <br />
-            <abbr title="Phone">Telefon:</abbr>{' '}
-            <a href="tel:+4970623716">+49 (07062) 8866</a>
-            <br />
-            <abbr title="Fax">Fax:</abbr> +49 (07062) 930756
-            <br />
-            <br />
-          </address>
+          <h2 className="major">Rode Catering</h2>
+          <Contact />
           {close}
         </article>
 
@@ -87,6 +97,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Impressum und Datenschutz</h2>
           <Imprint />
+          <p />
           {close}
         </article>
       </div>
