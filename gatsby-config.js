@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Metzgerei Rode Beilstein',
+    title: 'Rode Catering Beilstein',
     author: 'Bernhard Rode',
-    description: 'Webseite des Partyservice Metzgerei Rode in Beilstein.',
+    description: 'Webseite des Partyservice Rode Catering in Beilstein.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'metzgerei-rode-beilstein-de',
-        short_name: 'metzgerei-rode-beilstein',
+        name: 'rode-catering-de',
+        short_name: 'rode-catering',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#663399',

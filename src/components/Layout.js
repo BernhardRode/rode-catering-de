@@ -44,11 +44,11 @@ const Layout = ({ children, location }) => {
             meta={[
               {
                 name: 'description',
-                content: 'Partyservice Metzgerei Rode Beilstein',
+                content: 'Rode Catering Beilstein',
               },
               {
                 name: 'keywords',
-                content: 'party, service, metzgerei, local, german',
+                content: 'party, service, catering, local, german',
               },
             ]}
             link={[]}

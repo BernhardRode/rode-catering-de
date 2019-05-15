@@ -12,7 +12,7 @@ import PropTypes from 'prop-types'
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
-      &copy; Metzgerei Rode Beilstein - Partyservice {new Date().getFullYear()}
+      &copy; Rode Catering Beilstein - {new Date().getFullYear()}
       &nbsp;❤&nbsp;
       <a
         href="https://unsplash.com/@single_lens_reflex?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
