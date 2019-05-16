@@ -23,7 +23,7 @@ class Contact extends React.Component {
         <br />
         <abbr title="Fax">Fax:</abbr> +49 (0)7062 930756
         <br />
-        <abbr title="E-Mail">E-Mail:</abbr>{' '}
+        <abbr title="E-Mail">E-Mail:</abbr>
         <a href="mailto:info@rode-catering.de">info@rode-catering.de</a>
         <br />
       </address>

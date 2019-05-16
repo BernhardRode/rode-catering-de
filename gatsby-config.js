@@ -6,7 +6,7 @@ require('dotenv').config({
   path: `.env.${activeEnv}`,
 })
 
-const commit = process.env.TRAVIS_BUILD_NUMBER || 'unknown'
+const commit = process.env.TRAVIS_BUILD_NUMBER || ''
 
 module.exports = {
   siteMetadata: {

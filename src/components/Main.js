@@ -10,6 +10,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Imprint from './Imprint'
 import Contact from './Contact'
+import Kiosk from './Kiosk'
 import Catering from './Catering'
 
 class Main extends React.Component {
@@ -37,7 +38,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Freibad Kiosk</h2>
-
+          <Kiosk />
+          <p />
           {close}
         </article>
 
