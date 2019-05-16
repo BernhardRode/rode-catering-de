@@ -17,20 +17,22 @@
   },
   "keywords": [
     "gatsby",
-    "gasthof",
+    "catering",
     "germany"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "preDeploy": "gatsby build --prefix-paths",
-    "deploy": "npm run preDeploy && cp CNAME public/ && gh-pages -d public",
+    "buildRelease": "npm run preDeploy && cp CNAME public/",
+    "deploy": "npm run buildRelease && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "gatsby": "^2.4.6",
+    "dotenv": "^8.0.0",
+    "gatsby": "^2.5.0",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1"
   },

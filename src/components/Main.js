@@ -39,27 +39,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Freibad Kiosk</h2>
-          <p>
-            Ob Pommes und Eis für die Kinder oder Hamburger und Getränke für die
-            Alten. Wir freuen uns, Sie im Mineralfreibad Oberes Bottwartal mit
-            allem was das Herz begehrt verpflegen zu können.
-          </p>
-          <img
-            src={kiosk}
-            width="100%"
-            alt="Freibad Kiosk - Mineralfreibad Oberes Bottwartal"
-          />
-          <p>
-            Weitere Informationen zum Mineralfreibad Oberes Bottwartal finden
-            Sie auf der Homepage unter{' '}
-            <a
-              href="https://www.freibad-oberes-bottwartal.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              freibad-oberes-bottwartal.com
-            </a>
-          </p>
+
           {close}
         </article>
 

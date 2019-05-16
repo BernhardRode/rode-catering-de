@@ -1,19 +1,16 @@
 language: node_js
 node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
+  - 'stable'
 before_script:
   - git config --global user.email "mail@bernhardrode.de"
   - git config --global user.name "Travis-CI"
-after_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GITHUB_TOKEN}:@github.com" > .git/credentials
-  - node ./node_modules/grunt-cli/bin/grunt release
+script:
+  - 'npm run buildRelease'
 env:
   global:
-    secure: { "lots-of-seemingly-random-characters" }
+    secure: { 'lots-of-seemingly-random-characters' }
 deploy:
   provider: pages
   skip-cleanup: true
@@ -22,7 +19,3 @@ deploy:
   keep-history: true
   on:
     branch: master
-script:
-  - "npm run test"
-after_success:
-  - "npm run deploy"

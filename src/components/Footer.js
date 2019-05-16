@@ -8,6 +8,7 @@ __      _____| |____      _____  _ __| | _____ _ __ _  ___
 */
 import React from 'react'
 import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
@@ -31,6 +32,20 @@ const Footer = props => (
       >
         Impressum &amp; Datenschutz
       </span>
+      <StaticQuery
+        query={graphql`
+          query SiteVersionQuery {
+            site {
+              siteMetadata {
+                version
+              }
+            }
+          }
+        `}
+        render={data => (
+          <>&nbsp;|&nbsp; Version {data.site.siteMetadata.version}</>
+        )}
+      />
     </p>
   </footer>
 )
