@@ -7,6 +7,7 @@ __      _____| |____      _____  _ __| | _____ _ __ _  ___
   \_/\_/ \___|_.__/ \_/\_/ \___/|_|  |_|\_\___|_(_)|_|\___/ 
 */
 import React from 'react'
+import kiosk from '../images/kiosk.png'
 
 class Kiosk extends React.Component {
   render() {

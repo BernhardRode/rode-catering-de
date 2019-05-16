@@ -9,8 +9,6 @@ __      _____| |____      _____  _ __| | _____ _ __ _  ___
 import React from 'react'
 import PropTypes from 'prop-types'
 import Imprint from './Imprint'
-
-import kiosk from '../images/kiosk.png'
 import Contact from './Contact'
 import Catering from './Catering'
 
@@ -65,6 +63,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Rode Catering</h2>
           <Contact />
+          <p />
           {close}
         </article>
 

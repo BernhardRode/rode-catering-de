@@ -14,9 +14,9 @@ class Imprint extends React.Component {
     return (
       <div>
         <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-        <p>
+        <div>
           <Contact />
-        </p>
+        </div>
         <p>
           Datenschutz Beauftragter: Bernhard Rode
           <br />
