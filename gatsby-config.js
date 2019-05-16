@@ -20,12 +20,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'rode-catering-de',
-        short_name: 'rode-catering-de',
+        name: 'Rode Catering Beilstein',
+        short_name: 'rode-catering',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#663399',
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/logo.png', // This path is relative to the root of the site.
       },
     },
