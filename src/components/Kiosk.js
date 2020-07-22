@@ -18,6 +18,22 @@ class Kiosk extends React.Component {
           Alten. Wir freuen uns, Sie im Mineralfreibad Oberes Bottwartal mit
           allem was das Herz begehrt verpflegen zu können.
         </p>
+
+        <p>
+          Unser Biergarten im Freibad hat für Sie geöffnet!
+        </p>
+       
+        <ul>
+          <li>
+            Montag - Donnerstag: 17:00 - 22:00 Uhr
+          </li>
+
+          <li>
+            Freitag - Sonntag: 11:00 - 22:00 Uhr
+          </li>
+
+        </ul>      
+
         <img
           src={kiosk}
           width="100%"
