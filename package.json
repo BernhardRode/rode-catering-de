@@ -4,16 +4,16 @@
   "version": "1.0.0",
   "author": "Bernhard Rode",
   "dependencies": {
-    "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-plugin-offline": "^2.2.5",
-    "gatsby-plugin-react-helmet": "^3.1.3",
-    "gatsby-plugin-sass": "^2.1.5",
-    "gatsby-source-filesystem": "^2.1.9",
-    "gatsby-transformer-json": "^2.2.2",
-    "node-sass": "^4.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
+    "gatsby-plugin-manifest": "^3.9.0",
+    "gatsby-plugin-offline": "^4.9.0",
+    "gatsby-plugin-react-helmet": "^4.9.0",
+    "gatsby-plugin-sass": "^4.9.0",
+    "gatsby-source-filesystem": "^3.9.0",
+    "gatsby-transformer-json": "^3.9.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
   },
   "keywords": [
     "gatsby",
@@ -31,10 +31,10 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "dotenv": "^8.0.0",
-    "gatsby": "^2.13.55",
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.18.2"
+    "dotenv": "^10.0.0",
+    "gatsby": "^3.9.1",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.3.2"
   },
   "engines": {
     "node": ">=10.0.0",
