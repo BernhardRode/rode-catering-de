@@ -16,10 +16,10 @@ jobs:
           cache: "npm"
       - run: npm install
       - run: npm run build
-      #   env:
-      #     GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
-      #     NODE_ENV: production
-      #     CI: true
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+          NODE_ENV: production
+          CI: true
       # - name: Deploy to GitHub Pages
       #   uses: JamesIves/github-pages-deploy-action@4.1.4
       #   with:
