@@ -32,7 +32,7 @@ class Kiosk extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Mineralfreibad Oberes Bottwartal
+            &nbsp;Mineralfreibad Oberes Bottwartal
           </a>
           .
         </p>
