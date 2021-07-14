@@ -1,10 +1,10 @@
 /*
-              _                       _             _       
-             | |                     | |           (_)      
-__      _____| |____      _____  _ __| | _____ _ __ _  ___  
-\ \ /\ / / _ \ '_ \ \ /\ / / _ \| '__| |/ / _ \ '__| |/ _ \ 
+              _                       _             _
+             | |                     | |           (_)
+__      _____| |____      _____  _ __| | _____ _ __ _  ___
+\ \ /\ / / _ \ '_ \ \ /\ / / _ \| '__| |/ / _ \ '__| |/ _ \
  \ V  V /  __/ |_) \ V  V / (_) | |  |   <  __/ |_ | | (_) |
-  \_/\_/ \___|_.__/ \_/\_/ \___/|_|  |_|\_\___|_(_)|_|\___/ 
+  \_/\_/ \___|_.__/ \_/\_/ \___/|_|  |_|\_\___|_(_)|_|\___/
 */
 import React from 'react'
 import kiosk from '../images/kiosk.png'
@@ -19,36 +19,22 @@ class Kiosk extends React.Component {
           allem was das Herz begehrt verpflegen zu können.
         </p>
 
-        <p>
-          Unser Biergarten im Freibad hat für Sie geöffnet!
-        </p>
-       
-        <ul>
-          <li>
-            Montag - Donnerstag: 17:00 - 22:00 Uhr
-          </li>
-
-          <li>
-            Freitag - Sonntag: 11:00 - 22:00 Uhr
-          </li>
-
-        </ul>      
-
         <img
           src={kiosk}
           width="100%"
           alt="Freibad Kiosk - Mineralfreibad Oberes Bottwartal"
         />
         <p>
-          Weitere Informationen zum Mineralfreibad Oberes Bottwartal finden Sie
-          auf der Homepage unter{' '}
+          Weitere Informationen und aktuelle Öffnungszeiten finden Sie auf der
+          Homepage des
           <a
             href="https://www.freibad-oberes-bottwartal.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            freibad-oberes-bottwartal.com
+            Mineralfreibad Oberes Bottwartal
           </a>
+          .
         </p>
       </div>
     )
