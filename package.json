@@ -26,7 +26,7 @@
     "preDeploy": "gatsby build --prefix-paths",
     "buildRelease": "npm run preDeploy && cp CNAME public/",
     "deploy": "npm run buildRelease && gh-pages -d public",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
