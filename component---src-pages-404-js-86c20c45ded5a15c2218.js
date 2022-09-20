@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrode_catering_de=self.webpackChunkrode_catering_de||[]).push([[883],{429:function(e,t,n){n.r(t);var u=n(7294),r=n(2349);t.default=function(){return u.createElement(r.Z,null,u.createElement("h1",null,"NOT FOUND"),u.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-86c20c45ded5a15c2218.js.map
