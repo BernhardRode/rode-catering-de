@@ -12,7 +12,7 @@ class Contact extends React.Component {
   render() {
     return (
       <address>
-        Ulrich Rode
+        Birgit &amp; Ulrich Rode
         <br />
         Hauptstraße 44
         <br />
@@ -20,11 +20,6 @@ class Contact extends React.Component {
         <br />
         <abbr title="Phone">Telefon:</abbr>{' '}
         <a href="tel:+4970628866">+49 (0)7062 8866</a>
-        <br />
-        <abbr title="Fax">Fax:</abbr> +49 (0)7062 930756
-        <br />
-        <abbr title="E-Mail">E-Mail:</abbr>
-        <a href="mailto:info@rode-catering.de">info@rode-catering.de</a>
         <br />
       </address>
     )
