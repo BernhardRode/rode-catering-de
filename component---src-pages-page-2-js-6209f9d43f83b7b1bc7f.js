@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkrode_catering_de=self.webpackChunkrode_catering_de||[]).push([[617],{6034:function(e,t,n){n.r(t);var a=n(7294),c=n(1597),l=n(2349);t.default=function(){return a.createElement(l.Z,null,a.createElement("h1",null,"Hi from the second page"),a.createElement("p",null,"Welcome to page 2"),a.createElement(c.Link,{to:"/"},"Go back to the homepage"))}}}]);
-//# sourceMappingURL=component---src-pages-page-2-js-6209f9d43f83b7b1bc7f.js.map
