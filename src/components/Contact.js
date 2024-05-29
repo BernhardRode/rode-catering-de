@@ -12,14 +12,14 @@ class Contact extends React.Component {
   render() {
     return (
       <address>
-        Birgit &amp; Ulrich Rode
+        Marcel Rode
         <br />
-        Hauptstraße 44
+        Beilsteinerstrasse 100
         <br />
-        71717 Beilstein
+        71720 Oberstenfeld
         <br />
         <abbr title="Phone">Telefon:</abbr>{' '}
-        <a href="tel:+4970628866">+49 (0)7062 8866</a>
+        <a href="tel:+4970629790450">+49 (0)7062 - 9790450</a>
         <br />
       </address>
     )

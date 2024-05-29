@@ -13,15 +13,12 @@ class Catering extends React.Component {
     return (
       <div>
         <p>
-          Viele Jahrzehnte stand der Name Rode für Qualität, rund um das
+          Seit vielen Jahrzehnten steht der Name Rode für Qualität, rund um das
           leibliche Wohl, in und um das Bottwartal.
         </p>
         <p>
-          Zum 1. April 2024 schliessen wir unseren Catering Service und bedanken uns bei Ihnen für die vielen 
-          schönen Jahre und das entgegengebrachte Vertrauen!
-        </p>
-        <p>
-          <a href="tel:+4970628866">+49 (0)7062 - 8866</a>
+          Haben Sie Interesse? Dann rufen Sie uns an{' '}
+          <a href="tel:+4970629790450">+49 (0)7062 - 9790450</a>
         </p>
       </div>
     )
