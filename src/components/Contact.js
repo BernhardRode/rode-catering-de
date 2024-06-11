@@ -12,7 +12,7 @@ class Contact extends React.Component {
   render() {
     return (
       <address>
-        Marcel Rode
+        Marcel Nunn
         <br />
         Beilsteinerstrasse 100
         <br />
